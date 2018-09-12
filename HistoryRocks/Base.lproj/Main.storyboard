@@ -28,7 +28,6 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="114"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="20"/>
-                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonOneTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cnX-lA-imD"/>
                                                 </connections>
@@ -63,7 +62,6 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="114"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="20"/>
-                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonTwoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B5W-As-qYw"/>
                                                 </connections>
@@ -121,7 +119,6 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="114"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="20"/>
-                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonThreeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b5J-W3-yhm"/>
                                                 </connections>
@@ -169,7 +166,6 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="312" height="114"/>
                                                 <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="20"/>
-                                                <state key="normal" title="Button"/>
                                                 <connections>
                                                     <action selector="buttonFourTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="noi-5d-PH5"/>
                                                 </connections>

@@ -36,13 +36,17 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       
         nextRoundLabel.isHidden = true
-        startRound()
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        if gameOn == false && roundActive == false && roundsPlayed < 6 {
-            startRound()
+        if roundsPlayed == 0 {
+            nextRoundLabel.isHidden = false
+            nextRoundLabel.setBackgroundImage(UIImage(named: "play_button.png"), for: .normal)
+        } else if gameOn == false && roundActive == false && roundsPlayed < 6 {
+            //startRound()
+            nextRoundLabel.isHidden = false
         } else {
             correctAnswers = 0
             roundsPlayed = 0
@@ -50,6 +54,18 @@ class GameViewController: UIViewController {
             startRound()
         }
     }
+    
+//    func setFirstScreen() {
+//        let image: UIImage
+//        if roundsPlayed == 0 {
+//            startRound()
+//        } else {
+//            nextRoundLabel.isHidden = false
+//            image = UIImage(named: "play_button.png")!
+//             nextRoundLabel.setBackgroundImage(image, for: .normal)
+//        }
+//
+//    }
 
     func startRound() {
         gameOn = true
@@ -58,14 +74,18 @@ class GameViewController: UIViewController {
         timerLabel.isHidden = false
         shakeLabel.isHidden = false
         time = 60
+        startTimer()
         decreaseTimer()
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(GameViewController.decreaseTimer), userInfo: nil, repeats: true)
         roundsPlayed += 1
         eventRound = createRound()
         shakeLabel.text = "Shake To Complete"
         loadRound()
-        
     }
+    
+    func startTimer() {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(GameViewController.decreaseTimer), userInfo: nil, repeats: true)
+    }
+    
     
     func endRound() {
         gameOn = false
@@ -109,14 +129,13 @@ class GameViewController: UIViewController {
     }
     
     @objc func decreaseTimer() {
+        timerLabel.text = ":\(time)"
+        
         if time > 0 {
             time -= 1
-            timerLabel.text = ":\(time)"
         } else {
-            //timer.invalidate()
             time = 60
             endRound()
-
         }
     }
     

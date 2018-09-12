@@ -34,6 +34,7 @@
 		7DA328232138849C00CBEE4C /* devil-horns.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7DA328222138849A00CBEE4C /* devil-horns.jpeg */; };
 		7DA328272138884700CBEE4C /* Brick-Wall-Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DA328262138884700CBEE4C /* Brick-Wall-Black.jpg */; };
 		7DA3282921388F6100CBEE4C /* WebInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA3282821388F6100CBEE4C /* WebInfoViewController.swift */; };
+		7DCBA9A7214703BB00007C5F /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DCBA9A6214703BB00007C5F /* play_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		7DA328222138849A00CBEE4C /* devil-horns.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "devil-horns.jpeg"; sourceTree = "<group>"; };
 		7DA328262138884700CBEE4C /* Brick-Wall-Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brick-Wall-Black.jpg"; sourceTree = "<group>"; };
 		7DA3282821388F6100CBEE4C /* WebInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebInfoViewController.swift; sourceTree = "<group>"; };
+		7DCBA9A6214703BB00007C5F /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				7D8E55C72136D84A00B4BFB3 /* down_half_selected.png */,
 				7D8E55C82136D84A00B4BFB3 /* down_half.png */,
 				7D8E55CD2136D87F00B4BFB3 /* next_round_fail.png */,
+				7DCBA9A6214703BB00007C5F /* play_button.png */,
 				7D8E55CB2136D87E00B4BFB3 /* next_round_success.png */,
 				7D8E55D02136D87F00B4BFB3 /* play_again.png */,
 				7D8E55CE2136D87F00B4BFB3 /* splash_screen.png */,
@@ -212,6 +215,7 @@
 				7D8E55B62136C92D00B4BFB3 /* Main.storyboard in Resources */,
 				7D8E55D52136D87F00B4BFB3 /* up_full_selected.png in Resources */,
 				7D8E55C32136D80B00B4BFB3 /* down_full_selected.png in Resources */,
+				7DCBA9A7214703BB00007C5F /* play_button.png in Resources */,
 				7D8E55D82136D87F00B4BFB3 /* up_half.png in Resources */,
 				7D8E55DA2136D87F00B4BFB3 /* webview_bar.png in Resources */,
 				7D8E55D42136D87F00B4BFB3 /* next_round_success.png in Resources */,
